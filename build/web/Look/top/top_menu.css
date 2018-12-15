@@ -1,0 +1,35 @@
+/* 
+    Document   : top_menu
+    Created on : Jun 8, 2016, 12:00:38 PM
+    Author     : ANISH
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    overflow: hidden;
+}
+#menu ul li{
+    float: left;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: #00F;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+   
+}
+#menu ul li a:hover{
+    border: solid 1px;
+    background-color: darkgray;
+    color: white;
+    
+}
+#mn{
+    margin-left: 550px;
+    
+}

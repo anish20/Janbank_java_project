@@ -1,0 +1,74 @@
+/* 
+    Document   : layout
+    Created on : Jan 12, 2017, 6:11:08 PM
+    Author     : ANISH
+    Description:
+        Purpose of the stylesheet follows.
+*/
+/* 
+    Document   : structure
+    Created on : Jun 8, 2016, 11:47:52 AM
+    Author     : ANISH
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+div.Container{
+    width: 100%;
+    border: 1px solid lightpink;
+    background-color: lightcyan;
+}
+header{
+    max-height: 120px;
+    background-color: skyblue;
+    padding: 1em;
+    border-bottom: solid 1px lightpink;
+}
+
+nav{
+    float: left;
+    height:400px;
+    margin: 0;
+    padding: 1em;
+    background-color: gainsboro;
+    border-right: solid 1px lightpink;
+   
+}
+article{
+    
+    padding: 1em;
+    overflow: hidden;
+   
+}
+
+footer{
+    padding: 8px;
+    color: white;
+    background-color: gray;
+    clear: left;
+    border-top: solid 1px lightpink;
+    text-align: center;
+}
+.m a:hover{
+    color: white;
+}
+
+.dc ul{
+ list-style: circle ;
+ color: blue;
+ font-size: large;
+}
+.dc ul li{
+    padding: 2px
+}
+
+.dc ul li a{
+    text-decoration: none;
+    font-size: large;
+    color: blue;
+}
+.dc ul li a:hover{
+    color: hotpink;
+    text-decoration-color: #00F;
+}
